@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PhantomOS Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(145deg, #101010, #1e1e1e);
+      color: white;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      padding: 40px 20px;
+    }
+    h1 {
+      font-weight: 500;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+      gap: 20px;
+      width: 100%;
+      max-width: 600px;
+    }
+    .tile {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 16px;
+      padding: 20px;
+      text-align: center;
+      backdrop-filter: blur(14px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+      transition: all 0.25s ease;
+    }
+    .tile:hover {
+      transform: translateY(-3px);
+      background: rgba(255, 255, 255, 0.08);
+    }
+    a {
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+  <h1>PhantomOS Dashboard</h1>
+  <div class="grid">
+    <a href="phantomnav_index.html"><div class="tile">PhantomNav+</div></a>
+    <a href="phantomboost_index.html"><div class="tile">Boost++</div></a>
+    <a href="phantomsafe_index.html"><div class="tile">PhantomSafe</div></a>
+    <a href="phantomcast_index.html"><div class="tile">PhantomCast</div></a>
+    <a href="phantomcam_index.html"><div class="tile">PhantomCam</div></a>
+    <a href="installer_index.html"><div class="tile">Installer Guide</div></a>
+  </div>
+</body>
+</html>

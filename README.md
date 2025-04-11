@@ -1,3 +1,3 @@
-# PhantomOS Golden Build
+# PhantomOS Final UI Build
 
-This is the official PhantomOS v1.0 drop. Upload to GitHub Pages to deploy.
+This is the visual OS dashboard with functional modules and no folders.
